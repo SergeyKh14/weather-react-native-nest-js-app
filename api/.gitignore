@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+db/data/
+
+# TypeORM migrations
+src/migrations/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Coverage directory used by testing tools
+coverage/
+
+# .pnp and .pnp.js for Yarn PnP
+.pnp/
+.pnp.js
+
+# Optional dependency directories
+jspm_packages/
